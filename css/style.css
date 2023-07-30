@@ -136,3 +136,30 @@ section#offer p {
     width: 50%;
     margin: 0 auto;
 }
+
+/* Instagram Section  */
+
+section#instagram {
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+section#instagram p {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+section#instagram .instagram-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section#instagram .instagram-images figure {
+    width: 300px;
+    height: 300px;
+    margin: 0 8px;
+}
