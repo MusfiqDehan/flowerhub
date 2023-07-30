@@ -44,3 +44,64 @@ header .left .btn {
 header .right img {
     width: 550px;
 }
+
+/* Featured Section */
+
+section#featured {
+    padding: 100px 0;
+    text-align: center;
+}
+
+section#featured h2 {
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+section#featured .featured-text {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+section#featured .featured-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section#featured .featured-images figure {
+    margin: 0 20px;
+    padding: 50px 50px 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    text-align: center;
+}
+
+section#featured .featured-images .figure-1 {
+    background-color: #f1dde7;
+}
+section#featured .featured-images .figure-2 {
+    background-color: #d9eff0;
+}
+section#featured .featured-images .figure-3 {
+    background-color: #e3ebdb;
+}
+
+section#featured .featured-images .figure-container {
+    display: flex;
+    flex-direction: column;
+}
+
+section#featured .featured-images figcaption {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+section#featured .featured-images figure img {
+    width: 300px;
+    height: 400px;
+}
