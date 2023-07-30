@@ -75,3 +75,9 @@ td,
 th {
     padding: 0;
 }
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
